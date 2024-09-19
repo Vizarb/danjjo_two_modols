@@ -6,3 +6,5 @@ from .models import Product , Students
 
 admin.site.register(Product)
 admin.site.register(Students)
+
+# 5.

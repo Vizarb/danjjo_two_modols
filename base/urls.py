@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.urls import path
-from .views import ProductListCreate, ProductDetail , StudentsListCreate
+from .views import ProductListCreate, ProductDetail, StudentsDetail , StudentsListCreate
 from base import views
 
 # urls.py
@@ -13,6 +13,8 @@ urlpatterns = [
     path('products/<int:pk>/', ProductDetail.as_view(), name='product-detail'),
     path('products/<int:pk>/', ProductDetail.as_view(), name='product-detail'),
     path('student/', StudentsListCreate.as_view(), name='student-detail'),
+    path('students/<int:pk>/', StudentsDetail.as_view(), name='student-detail'),
+    path('students/<int:pk>/', StudentsDetail.as_view(), name='student-detail'),
 
 
 ]

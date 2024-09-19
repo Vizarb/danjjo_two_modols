@@ -11,4 +11,4 @@ class ProductSerializer(serializers.ModelSerializer):
 class StudentsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Students
-        fields = ['email', 'age']
+        fields = '__all__'
