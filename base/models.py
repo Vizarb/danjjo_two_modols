@@ -1,5 +1,5 @@
 from django.db import models
-
+# 1.first step
 # Create your models here.
 class Product(models.Model):
     desc = models.CharField(max_length=50,null=True,blank=True)

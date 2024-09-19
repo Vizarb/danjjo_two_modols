@@ -6,7 +6,7 @@ from base import views
 
 # urls.py
 
-
+# 4. last step
 urlpatterns = [
     path('', views.index),
     path('products/', ProductListCreate.as_view(), name='product-list-create'),

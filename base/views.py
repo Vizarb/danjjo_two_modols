@@ -5,7 +5,7 @@ from rest_framework import status
 from rest_framework.views import APIView
 from .models import Product , Students
 from .serializers import ProductSerializer , StudentsSerializer
-
+# 3.
 def index(req):
     return JsonResponse('hello', safe=False)
 
